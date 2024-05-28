@@ -1,0 +1,15 @@
+@import "../../styles/colors.css";
+.header{
+    background-color:var(--dark-blue);
+    color: white;
+    padding: 10px 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    text-align: center;
+    font-size: 3.5em;
+    color: white;
+    text-decoration: none;
+}

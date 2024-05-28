@@ -1,0 +1,28 @@
+.introMessage {
+  background-color: var(--dark-blue-transparent);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 50px auto;
+}
+.introMessage h1,
+.introMessage h2,
+.introMessage h3 {
+  margin: 10px auto;
+}
+.introMessage h1 {
+  font-size: 80px;
+  height: 80px;
+}
+.introMessage h2 {
+  font-size: 50px;
+}
+.introMessage h3 {
+  font-size: 32px;
+}
+@media (min-width: 600px) {
+  .introMessage {
+    padding: 30px;
+  }
+}

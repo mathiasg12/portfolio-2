@@ -1,0 +1,26 @@
+
+.nav ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    max-width: 800px;
+    margin: 5px auto 0 auto;
+    justify-content: end;
+}
+.navlink{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    min-width: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+.navlink:hover{
+    background-color: black;
+}
