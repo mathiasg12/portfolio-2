@@ -41,6 +41,12 @@ export function SkillsSection() {
           </div>
         </li>
         <li>
+          <p>CSS</p>
+          <div>
+            <img src="./svg/w3_css-icon.svg" alt="css" />
+          </div>
+        </li>
+        <li>
           <p>SCSS</p>
           <div>
             <img src="./svg/scss2-svgrepo-com.svg" alt="SCSS" />
@@ -53,7 +59,7 @@ export function SkillsSection() {
           </div>
         </li>
         <li>
-          <p>+ more</p>
+          <p className={styles.moreP}>+ more</p>
         </li>
       </ul>
     </div>
