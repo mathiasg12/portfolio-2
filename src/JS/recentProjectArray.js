@@ -29,4 +29,18 @@ export const recentProjectArray = [
     liveSite: 'https://holidazzze.netlify.app/',
     gitHub: 'https://github.com/mathiasg12/exam-2-holidaze',
   },
+  {
+    title: 'E-shop ',
+    decription:
+      'This is a website for a fictional e-commerce shop built using React and CSS modules. The store features five pages and one 404 "Page Not Found" page created with JSX. The project has products fetched by an API, a working cart, and a contact form with react-hook-form and Yup validation. the project has a layout component that contains the header and footer, the project uses react routes to navigate between pages.',
+    imageUrl: './images/es.png',
+    builtWith: [
+      { name: 'React', svg: './svg/react-1-logo-svgrepo-com.svg' },
+      { name: 'JS', svg: './svg/js-svgrepo-com.svg' },
+      { name: 'HTML', svg: './svg/html-5-svgrepo-com.svg' },
+      { name: 'CSS modules', svg: './svg/w3_css-icon.svg' },
+    ],
+    liveSite: 'https://ract-e-shop.netlify.app/',
+    gitHub: 'https://github.com/mathiasg12/react-ca-mathiasg',
+  },
 ];
