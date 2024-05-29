@@ -1,4 +1,7 @@
 import styles from './intro.module.css';
+/**
+ * component that returns the jsx intro message at the home page
+ */
 export function IntroMessage() {
   return (
     <section>

@@ -1,3 +1,6 @@
+/**
+ * component that returns the jsx for 404 page not found content
+ */
 export function NotFoundContent() {
   return (
     <div>
