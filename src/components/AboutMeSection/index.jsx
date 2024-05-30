@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { AboutMeContent } from '../AboutMeContent';
-import { GitHubLink } from '../GithubLink';
 import styles from './aboutMeSection.module.css';
 import { ExperienceContent } from '../ExperienceSection';
 import { SkillsSection } from '../SkillsSection';
+import { GitHubInfo } from '../GithubInfo';
 /**
  * Function that returns the aboutMeSection.
  * This section includes three buttons where users can choose what to display: either an "About Me" section, a "Skills" section, or an "Experience" section.
@@ -41,7 +41,7 @@ export function AboutMeSection() {
           {activeSection === 'sk' && <SkillsSection></SkillsSection>}
           {activeSection === 'exp' && <ExperienceContent></ExperienceContent>}
         </div>
-        <GitHubLink></GitHubLink>
+        <GitHubInfo></GitHubInfo>
       </div>
     </section>
   );

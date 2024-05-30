@@ -1,4 +1,3 @@
-@import '../../styles/colors.css';
 .gitHubLink {
   display: flex;
   align-items: center;
@@ -11,13 +10,7 @@
   border: black 2px solid;
   border-radius: 5px;
 }
-.linkWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 400px;
-  margin: 0 auto;
-}
+
 .gitHubLink:hover {
   background-color: orangered;
 }

@@ -1,0 +1,33 @@
+.contactContentSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.contactMeWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-blue-transparent);
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  max-width: 80vw;
+}
+.contactContentSection h1 {
+  margin-bottom: 0;
+}
+.linkWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content: space-between;
+}
+@media (min-width: 600px) {
+  .linkWrapper {
+    flex-direction: row;
+    height: fit-content;
+    min-width: 300px;
+    margin-top: 20px;
+  }
+}
