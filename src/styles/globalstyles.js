@@ -7,4 +7,8 @@ h1,h2,h3,h4,button,a{
 h1{
     font-size: 30px;
 }
+main{
+    margin-top: 175px;
+    
+}
 `;

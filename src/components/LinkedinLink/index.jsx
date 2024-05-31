@@ -1,5 +1,8 @@
 import styles from './linkedinLink.module.css';
 import { Link } from 'react-router-dom';
+/**
+ * component that creates the link to linkedin
+ */
 export function LinkedinLink() {
   return (
     <Link

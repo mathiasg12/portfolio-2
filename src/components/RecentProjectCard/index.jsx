@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import styles from './recentProjectCard.module.css';
-
 /**
  * component that creates the "Recent project card" this card contains a image, title, short decription and links to the live site and github repository
  */

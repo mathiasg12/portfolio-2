@@ -9,11 +9,11 @@ export function ContactMeContent() {
     <section className={styles.contactContentSection}>
       <div className={styles.contactMeWrapper}>
         <h1>Contact me</h1>
-        <div>
+        <div className={styles.emailCon}>
           <p>
             If you want to send me a message or ask me a question my Email is:
-            mathiasgausl@gmail.com
           </p>
+          <a href="mailto:mathiasgausl@gmail.com">mathiasgausl@gmail.com</a>
         </div>
         <div className={styles.linkWrapper}>
           <GithubLink></GithubLink>

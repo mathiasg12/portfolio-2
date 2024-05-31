@@ -1,4 +1,7 @@
 import styles from './skillsSection.module.css';
+/**
+ * component that returns the "skill section" which is a list of different tools, each li consists of a name(p tag) and a svg icon(img tag)
+ */
 export function SkillsSection() {
   return (
     <div className={styles.skillsWrapper}>

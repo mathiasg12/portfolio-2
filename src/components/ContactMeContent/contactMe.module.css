@@ -14,6 +14,16 @@
   border-radius: 10px;
   max-width: 80vw;
 }
+.emailCon {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.emailCon a {
+  width: fit-content;
+  color: white;
+  font-size: 1.1em;
+}
 .contactContentSection h1 {
   margin-bottom: 0;
 }
