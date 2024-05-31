@@ -1,6 +1,8 @@
 import { GithubLink } from '../GitHubProfileLink';
 import { LinkedinLink } from '../LinkedinLink';
 import styles from './contactMe.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 /**
  * component that creates the Contact page content
  */
@@ -13,7 +15,13 @@ export function ContactMeContent() {
           <p>
             If you want to send me a message or ask me a question my Email is:
           </p>
-          <a href="mailto:mathiasgausl@gmail.com">mathiasgausl@gmail.com</a>
+          <a
+            className={styles.emailAndEnvWrapper}
+            href="mailto:mathiasgausl@gmail.com"
+          >
+            <FontAwesomeIcon icon={faEnvelope} className={styles.env} />
+            <p className={styles.linkText}>mathiasgausl@gmail.com</p>
+          </a>
         </div>
         <div className={styles.linkWrapper}>
           <GithubLink></GithubLink>

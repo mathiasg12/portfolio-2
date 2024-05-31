@@ -15,7 +15,8 @@
   margin: 0 5px;
 }
 .navlink:hover {
-  background-color: black;
+  background-color: white;
+  color: black;
 }
 .headerUl {
   display: none;

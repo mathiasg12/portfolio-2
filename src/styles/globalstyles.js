@@ -9,6 +9,6 @@ h1{
 }
 main{
     margin-top: 175px;
-    
+    min-height: 90vh;
 }
 `;

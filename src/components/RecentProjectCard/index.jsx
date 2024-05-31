@@ -9,7 +9,7 @@ export function RecentProjectCard(props) {
     <div>
       {projectArray.map((eachObject) => {
         return (
-          <div className={styles.card}>
+          <div className={styles.card} key={eachObject.id}>
             <div className={styles.imageDiv}>
               <img src={eachObject.imageUrl} alt="screenshot of project" />
             </div>
@@ -20,7 +20,7 @@ export function RecentProjectCard(props) {
               <div className={styles.bultWithCon}>
                 {eachObject.builtWith.map((item) => {
                   return (
-                    <div className={styles.svgCon}>
+                    <div className={styles.svgCon} key={item.name}>
                       <p>{item.name}</p>
                       <div>
                         <img src={item.svg} alt="svg of tool" />

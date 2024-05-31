@@ -19,10 +19,22 @@
   flex-direction: column;
   margin-bottom: 30px;
 }
-.emailCon a {
-  width: fit-content;
+.emailAndEnvWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid white;
   color: white;
-  font-size: 1.1em;
+  width: fit-content;
+  margin: 0 auto;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+.emailAndEnvWrapper p {
+  margin: 0 0 0 5px;
+}
+.env {
+  font-size: 20px;
 }
 .contactContentSection h1 {
   margin-bottom: 0;
